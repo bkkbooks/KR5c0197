@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0197/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0197/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一敕壇儀
+  date: '2015-08-29 00:54:18.762333'
+  source:
+    repository: kanripo
+    path: KR5c0197
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0197_000-HFL.yaml, hash: 'sha256:4414a6ee1061f7ffb236c2d2b04eea5fda6e63c499a5ab5b7ccc087d07321e7f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0197_000-HFL.markers.yaml, hash: 'sha256:4a339afca18019f7c334a827d33c6cfd8644500b1aec6bddb51ee6cac8a60ac3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0197_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1599
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3e51678a4c665a99156c9ffa45f0b8e89afa914ae17991326811da79bd3c315d
